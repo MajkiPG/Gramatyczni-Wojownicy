@@ -1,0 +1,26 @@
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Release\Gramatyczni Wojownicy.exe.config
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Release\Gramatyczni Wojownicy.exe
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Release\Gramatyczni Wojownicy.pdb
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Release\OxyPlot.dll
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Release\OxyPlot.Wpf.dll
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Release\OxyPlot.pdb
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Release\OxyPlot.xml
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Release\OxyPlot.Wpf.pdb
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Release\OxyPlot.Wpf.xml
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Release\LoginWindow.g.cs
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Release\MainWindow.g.cs
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Release\PlotWindow.g.cs
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Release\App.g.cs
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Release\Gramatyczni Wojownicy_MarkupCompile.cache
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Release\Gramatyczni Wojownicy_MarkupCompile.lref
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Release\App.baml
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Release\LoginWindow.baml
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Release\MainWindow.baml
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Release\PlotWindow.baml
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Release\Gramatyczni Wojownicy.g.resources
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Release\Gramatyczni_Wojownicy.Properties.Resources.resources
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Release\Gramatyczni Wojownicy.csproj.GenerateResource.Cache
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Release\Gramatyczni Wojownicy.exe
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Release\Gramatyczni Wojownicy.pdb
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Release\Gramatyczni Wojownicy.csprojResolveAssemblyReference.cache

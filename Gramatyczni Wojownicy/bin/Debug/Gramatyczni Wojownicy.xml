@@ -1,0 +1,724 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Gramatyczni Wojownicy</name>
+    </assembly>
+    <members>
+        <member name="T:Gramatyczni_Wojownicy.HelpWindow">
+            <summary>
+            Okno instrukcji
+            </summary>
+            <summary>
+            HelpWindow
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.HelpWindow.#ctor">
+            <summary>
+            Konstruktor okna instrukcji<see cref="T:Gramatyczni_Wojownicy.HelpWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.HelpWindow.Button_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Dekorator przycisku. Usuwa tło.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.HelpWindow.Button_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Dekorator przycisku. Usuwa tło.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.HelpWindow.CloseHelpButton_MouseDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Zamyka okno instrukcji.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.HelpWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Gramatyczni_Wojownicy.LoginWindow">
+            <summary>
+            Okno logowania i funkcje z nim związane
+            </summary>
+            <summary>
+            LoginWindow
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.LoginWindow.#ctor">
+            <summary>
+            Konstruktor okna logowania. <see cref="T:Gramatyczni_Wojownicy.LoginWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.LoginWindow.LogInButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Loguje użytkownika wybranego z listy.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.LoginWindow.UsersListBox_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Wywołana przy zaznaczeniu loginu z listy. Aktywuje przycisk logowania.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.LoginWindow.NewUserButton_MouseDown(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Wyświetla formularz tworzenia nowego użytkownika.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.LoginWindow.CreateUserButton_MouseDown(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Pobiera nazwę nowego użytkownika z pola tekstowego. Sprawdza poprawnośc i wywołuje fukcje tworzące nowego użytkownika.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.LoginWindow.UpdateLoggedUserLabel">
+            <summary>
+            Aktualizuje informację o zalogowanym użytkowniku w klasie MainWindow.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.LoginWindow.Button_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Dekorator przycisku. Ustawia tło.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.LoginWindow.Button_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Dekorator przycisku. Usuwa tło.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.LoginWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Gramatyczni_Wojownicy.PlotData">
+            <summary>
+            Klasa z danymi statystyk
+            </summary>
+        </member>
+        <member name="P:Gramatyczni_Wojownicy.PlotData.Title">
+            <summary>
+            Tytuł wykresu.
+            </summary>
+        </member>
+        <member name="P:Gramatyczni_Wojownicy.PlotData.Points">
+            <summary>
+            Lista z punktami na wykresie.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.PlotData.#ctor">
+            <summary>
+            Konstruktor klasy PlotData <see cref="T:Gramatyczni_Wojownicy.PlotData"/> class.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.PlotData.GetScores">
+            <summary>
+            Pobiera procentowe wyniki z pliku zalogowanego użytkownika i dodaje je do listy z punktami wykresu
+            </summary>
+        </member>
+        <member name="T:Gramatyczni_Wojownicy.PlotWindow">
+            <summary>
+            Okno wyświetlające wykres statystyk. Korzysta z bibliotek OxyPlot.
+            </summary>
+            <summary>
+            PlotWindow
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.PlotWindow.#ctor">
+            <summary>
+            Konstruktor okna statystyk<see cref="T:Gramatyczni_Wojownicy.PlotWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.PlotWindow.Button_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Dekorator przycisku. Usuwa tło.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.PlotWindow.Button_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Dekorator przycisku. Usuwa tło.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.PlotWindow.ClosePlotButton_MouseDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Zamyka okno statystyk.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.PlotWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Gramatyczni_Wojownicy.QuestionSelector">
+            <summary>
+            Klasa Statyczna. Przechowuje informacje o pytaniach, losuje nowe pytania z pliku oraz sprawdza poprawność odpowiedzi.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.QuestionSelector._word">
+            <summary>
+            Wylosowane słowo.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.QuestionSelector.wordToDisplay">
+            <summary>
+            Wylosowane słowo z lukami.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.QuestionSelector.helpWord">
+            <summary>
+            Podpowiedź do słowa z lukami.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.QuestionSelector.gaps">
+            <summary>
+            Lista luk w słowie.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.QuestionSelector._numberOfLines">
+            <summary>
+            Ilośc linijek w pliku ze słowami.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.QuestionSelector.random">
+            <summary>
+            Random
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.QuestionSelector._gapReplacement">
+            <summary>
+            Szablon symbolu luki.
+            </summary>
+        </member>
+        <member name="P:Gramatyczni_Wojownicy.QuestionSelector.NumberOfLines">
+            <summary>
+            Zwraca ilość linijek w pliku ze słowami
+            </summary>
+            <value>
+            Ilość linijek w pliku.
+            </value>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.QuestionSelector.GetNewWord">
+            <summary>
+            Losuje z pliku nowe słowo.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.QuestionSelector.GenerateWordToDisplay">
+            <summary>
+            Zastępuje znaki h,ch,ż,rz,u,ó lukami i tworzy tekst wyświetlany jako pytanie.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.QuestionSelector.GenerateHelpWord">
+            <summary>
+            Tworzy tekst z podpowiedzią wyświetlaną w trakcie gry.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.QuestionSelector.AskQuestion">
+            <summary>
+            Zadaje nowe pytanie i ustawia jego parametry. (Korzysta z metod GetNewWord(), GenerateWordToDisplay() i GenerateHelpWord())
+            </summary>
+        </member>
+        <member name="P:Gramatyczni_Wojownicy.QuestionSelector.IsGapsListEmpty">
+            <summary>
+            Zwraca prawdę, gdy lista z lukami do odgadnięcia jest pusta.
+            </summary>
+            <value>
+              <c>true</c>Gdy lista z lukami jest pusta; w innym przypadku, <c>false</c>.
+            </value>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.QuestionSelector.NextGap">
+            <summary>
+            Wykonuje się w momencie gdy zostanie poprawnie uzupełniona luka. Zamienia lukę na słowo i usuwa zużytą lukę z listy.
+            </summary>
+        </member>
+        <member name="T:Gramatyczni_Wojownicy.StatisticsCollector">
+            <summary>
+            Klasa statyczna. Przechowuje informacje o użytkownikach, zajmuje się punktacją i zapisem wyników do pliku.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.StatisticsCollector.guestUser">
+            <summary>
+            Szablon użytkownika gość.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.StatisticsCollector.loggedUser">
+            <summary>
+            Zalogowany użytkownik.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.StatisticsCollector.users">
+            <summary>
+            Lista użytkowników.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.StatisticsCollector._correctAnswers">
+            <summary>
+            Błędne odpowiedzi
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.StatisticsCollector._wrongAnswers">
+            <summary>
+            Poprawne odpowiedzi.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.StatisticsCollector._usersDirectory">
+            <summary>
+            Lokalizacja folderu z użytkownikami.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.StatisticsCollector._userFile">
+            <summary>
+            Lokalizacja pliku zalogowanego użytkownika.
+            </summary>
+        </member>
+        <member name="P:Gramatyczni_Wojownicy.StatisticsCollector.UserFile">
+            <summary>
+            Pobiera lokalizacje pliku użytkownika.
+            </summary>
+            <value>
+            _userFile
+            </value>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.StatisticsCollector.GetUsers">
+            <summary>
+            Pobiera listę użytkowników z folderu /Users.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.StatisticsCollector.LogIn(System.String)">
+            <summary>
+            Loguje danego użytkownika.
+            </summary>
+            <param name="username">Nazwa użytkownika logującego się.</param>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.StatisticsCollector.CreateNewUser(System.String)">
+            <summary>
+            Tworzy nowego użytkownika i dodaje jego plik do folderu /users.
+            </summary>
+            <param name="username">Nazwa nowego użytkownika.</param>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.StatisticsCollector.RecievePoints(System.Boolean)">
+            <summary>
+            Punktuje poprawną lub niepoprawną odpowiedź.
+            </summary>
+            <param name="answer">Poprawna(true) lub niepoprawna(false) odpowiedź.</param>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.StatisticsCollector.Score">
+            <summary>
+            Wylicza punktację na podpstawie różnicy poprawnych i niepoprawnych odpowiedz.
+            </summary>
+            <returns>Zwraca liczbę punktów.</returns>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.StatisticsCollector.SaveScoreInFile">
+            <summary>
+            Zapisuje procentowy wynik gry do pliku zalogowanego użytkownika.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.StatisticsCollector.ResetScores">
+            <summary>
+            Resetuje wyniki.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.StatisticsCollector.LogOut">
+            <summary>
+            Wylogowuje zalogowanego użytkownika. (Automatycznie loguje użytkownika Gość)
+            </summary>
+        </member>
+        <member name="T:Gramatyczni_Wojownicy.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:Gramatyczni_Wojownicy.MainWindow">
+            <summary>
+            Główne okno aplikacji
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.explosionInitialHeight">
+            <summary>
+            Początkowa wysokość grafiki eksplozji.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.rocketCaptured">
+            <summary>
+            Indykuje czy rakieta jest zakotwiczona do kursora.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.isRocketThrustersSound">
+            <summary>
+            Czy odtwarzany jest dźwięk silnika rakietowego.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.isRocketSteamSound">
+            <summary>
+            Czy odtwarzany jest dźwięk silnika.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.gameStarted">
+            <summary>
+            Indykuje czy gra jest uruchomiona.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.rocketExplosionCounter">
+            <summary>
+            Odlicza do kolejnej zmiany rozmiaru pola wybuchu rakiety.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.rocketAngleCounter">
+            <summary>
+            Odlicza do kolejnej zmiany kąta rakiety.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.AsteroidsCounter">
+            <summary>
+            Liczy liczbę asteroid;
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.rocketFlameCounter">
+            <summary>
+            Odlicza do kolejnej zmiany ustawienia płomienia rakiety.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.random">
+            <summary>
+            The random
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.startPoint">
+            <summary>
+            Punkt pomocniczy do wyliczenia kąta rakiety.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.asteroidAnimationList">
+            <summary>
+            Lista aktywnych animacji asteroidy.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.asteroids">
+            <summary>
+            Lista asteroid.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.startAsteroidsTimer">
+            <summary>
+            Odlicza czas między dodaniem kolejnych asteroid.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.explosionTimer">
+            <summary>
+            Odlicza czas trwania animacji eksplozji.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.regenerateRocketTimer">
+            <summary>
+            Odlicza czas pojawienia się rakiety po eksplozji.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.rocketFlameTimer">
+            <summary>
+            Odlicza czas do zmiany ustawienia płomienia rakiety.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.wordLabelDelayTimer">
+            <summary>
+            Odlicza opóźnienie pojawienia się kolejnego słowa.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.helpWordDisplayTimer">
+            <summary>
+            Odlicza czas pokazywania się podpowiedzi.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.explosion">
+            <summary>
+            Dźwięk eksplozji.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.rocketSteam">
+            <summary>
+            Dźwięk włączonego silnika rakiety.
+            </summary>
+        </member>
+        <member name="F:Gramatyczni_Wojownicy.MainWindow.rocketThrusters">
+            <summary>
+            Dźwięk płomienia rakiety.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.#ctor">
+            <summary>
+            Konstruktor głównego okna aplikacji.<see cref="T:Gramatyczni_Wojownicy.MainWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.HandleEsc(System.Object,System.Windows.Input.KeyEventArgs)">
+            <summary>
+            Występuje przy wciśnięciu ESC. Pauzuję grę.
+            </summary>       
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.HandleH(System.Object,System.Windows.Input.KeyEventArgs)">
+            <summary>
+            Występuje przy wciśnięciu h. Wyświetla podpowiedź.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.PlayArea_MouseMove(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Występuje przy poruszeniu kursorem po planszy. Gdy rakieta jest zakotwiczona, to ja przemieszcza zgodnie z kursorem.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.PlayArea_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Występuje gdy kursor opuszcza planszę. Gdy rakieta jest zakotwiczona to wywołuje funkcję DestroYRocket();
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.Rocket_MouseLeftButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Zakotwicza rakietę do kursora. 
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.CorrectPlanet_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Występuje gdy gracz najedzie rakietą na dobrą odpowiedź. Wywołuje funkcje przygotowujące następne pytanie.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.FalsePlanet_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Występuje gdy gracz najedzie rakietą na złą odpowiedź. Wywołuje funkcję związane ze złą odpowiedzią.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.StartButton_MouseDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Rozpoczyna grę. Wywołuje wszystkie funkcje związane z przygotowaniem nowej rozgrywki.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.LogIn_Button_MouseDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Otwiera okno logowania użytkownika.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.LogOutButton_Down(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Wywołuje funkcje związane z wylogowaniem użytkownika.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.EndGameButton_MouseDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Kończy grę. Wywołuje funkcje kończące grę i zapisujące wyniki.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.Asteroid_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Występuje gdy użytkownik najedzie rakietą na asteroidę. Wywołuje funkjcę DestroyRocket().
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.MainWindow1_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Zamyka wszystkie elementy programu przy wcześniejszym zapisaniu wyniku zalogowanego użytkownika.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.Button_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Dekorator przycisku. Usuwa tło.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.Button_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Dekorator przycisku. Usuwa tło.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.StatisticsButton_MouseDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Wyświetla okno ze statystykami zalogowanego użytkownika.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.HowToPlayButton_MouseDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Wyświetla okno ze statystykami zalogowanego użytkownika.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.StartAsteroidsTimer_Tick(System.Object,System.EventArgs)">
+            <summary>
+            Timer odpowiadający za dodawanie asteroid w odstępach czasu po starcie gry.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.ExplosionTimer_Tick(System.Object,System.EventArgs)">
+            <summary>
+            Timer wspomagający animację wybuchu rakiety.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.RegenerateRocketTimer_Tick(System.Object,System.EventArgs)">
+            <summary>
+            Timer odliczający czas do pojawienia się rakiety na planszy po wywołaniu funkcji DestroyRocket().
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.RocketFlameTimer_Tick(System.Object,System.EventArgs)">
+            <summary>
+            Timer wspomagający animację płomienia rakiety.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.WordLabelDelayTimer_Tick(System.Object,System.EventArgs)">
+            <summary>
+            Opóźnia wyświetlenie kolejnego pytania po odgadnięciu całego słowa.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.HelpWordDisplayTimer_Tick(System.Object,System.EventArgs)">
+            <summary>
+            Timer wyświetlający podpowiedź przez ustalony czas.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.CaptureRocket">
+            <summary>
+            Zakotwicza rakietę do kursora.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.ReleaseRocket">
+            <summary>
+            Odkotwicza rakietę od kursora.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.RocketAngle(System.Windows.Point,System.Windows.Point)">
+            <summary>
+            Wylicza kąt pod jakim rakieta ma się ustawić na planszy na podstawie dwóch pozycji.
+            </summary>
+            <param name="position1">Pozycja początkowa</param>
+            <param name="position2">Pozycja końcowa</param>
+            <returns>Zwraca w stopniac kąt ustawienia rakiety.</returns>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.AnimateAsteroid(System.Windows.Controls.ContentControl,System.Double,System.Double,System.Windows.PropertyPath)">
+            <summary>
+            Dodaje losową animację do danej instancji asteroidy.
+            </summary>
+            <param name="asteroid">Obiekt asteroidy.</param>
+            <param name="from">Początek animacji na planszy.</param>
+            <param name="to">Koniec animacji na planszy</param>
+            <param name="propertyToAnimate">Właśnośc obiektu do animacji. (Płaszczyzna X lub Y)</param>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.AddAsteroid">
+            <summary>
+            Dodaje asteroidę wraz z animacją na planszę.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.SetRocketPosition">
+            <summary>
+            Ustawia losową pozycję i kąt rakiety na planszy.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.SetPlanetPosition">
+            <summary>
+            Ustawia losową pozycję planet na planszy.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.SetPlanetContent">
+            <summary>
+            Ustawia luki słów na planetach.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.SetQuestionLabel">
+            <summary>
+            Ustawia słowo z pytaniem na planszy.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.NextQuestion">
+            <summary>
+            Wywołuje następne pytanie.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.UpdateScoreLabel">
+            <summary>
+            Aktualizuje punktację wyświetlaną na planszy.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.DestroyRocket">
+            <summary>
+            Wywołuję funkcję ReleaseRocket() oraz animuje wybuch rakiety.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.PauseAsteroids">
+            <summary>
+            Wstrzymuje animację asteroid.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.StartAsteroids">
+            <summary>
+            Wznawia animację asteroid.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.RemoveAsteroids">
+            <summary>
+            Usuwa asteroidy z planszy.
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.DisplayMenu">
+            <summary>
+            Wyświetla kontrolki menu. (Chowa wszystkie kontrolki związane z rozgrywką)
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.DisplayGameControls">
+            <summary>
+            Wyświetla kontrolki gry. (Chowa wszystkie kontrolki menu)
+            </summary>
+        </member>
+        <member name="M:Gramatyczni_Wojownicy.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Gramatyczni_Wojownicy.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Gramatyczni_Wojownicy.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Gramatyczni_Wojownicy.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

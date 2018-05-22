@@ -1,0 +1,46 @@
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Debug\Gramatyczni Wojownicy.exe.config
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Debug\Gramatyczni Wojownicy.exe
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Debug\Gramatyczni Wojownicy.pdb
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\MainWindow.g.cs
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\App.g.cs
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\Gramatyczni Wojownicy_MarkupCompile.cache
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\Gramatyczni Wojownicy_MarkupCompile.lref
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\MainWindow.baml
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\Gramatyczni Wojownicy.g.resources
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\Gramatyczni_Wojownicy.Properties.Resources.resources
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\Gramatyczni Wojownicy.csproj.GenerateResource.Cache
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\Gramatyczni Wojownicy.exe
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\Gramatyczni Wojownicy.pdb
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\LoginWindow.g.cs
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\LoginWindow.baml
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\Gramatyczni Wojownicy.csprojResolveAssemblyReference.cache
+C:\Users\Majki\Desktop\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Debug\Gramatyczni Wojownicy.exe.config
+C:\Users\Majki\Desktop\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Debug\Gramatyczni Wojownicy.exe
+C:\Users\Majki\Desktop\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Debug\Gramatyczni Wojownicy.pdb
+C:\Users\Majki\Desktop\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\LoginWindow.g.cs
+C:\Users\Majki\Desktop\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\MainWindow.g.cs
+C:\Users\Majki\Desktop\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\App.g.cs
+C:\Users\Majki\Desktop\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\Gramatyczni Wojownicy_MarkupCompile.cache
+C:\Users\Majki\Desktop\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\Gramatyczni Wojownicy_MarkupCompile.lref
+C:\Users\Majki\Desktop\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\LoginWindow.baml
+C:\Users\Majki\Desktop\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\MainWindow.baml
+C:\Users\Majki\Desktop\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\Gramatyczni Wojownicy.g.resources
+C:\Users\Majki\Desktop\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\Gramatyczni_Wojownicy.Properties.Resources.resources
+C:\Users\Majki\Desktop\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\Gramatyczni Wojownicy.csproj.GenerateResource.Cache
+C:\Users\Majki\Desktop\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\Gramatyczni Wojownicy.csproj.CoreCompileInputs.cache
+C:\Users\Majki\Desktop\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\Gramatyczni Wojownicy.exe
+C:\Users\Majki\Desktop\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\Gramatyczni Wojownicy.pdb
+C:\Users\Majki\Desktop\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\Gramatyczni Wojownicy.csprojResolveAssemblyReference.cache
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Debug\OxyPlot.dll
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Debug\OxyPlot.pdb
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Debug\OxyPlot.xml
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Debug\OxyPlot.Wpf.pdb
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\PlotWindow.g.cs
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\PlotWindow.baml
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\App.baml
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\bin\Debug\Gramatyczni Wojownicy.xml
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\HelpWindow.g.cs
+C:\Users\mikol\Documents\Projekty PG\Gramatyczni Wojownicy\Gramatyczni Wojownicy\obj\Debug\HelpWindow.baml

@@ -1,0 +1,17 @@
+﻿<Window x:Class="Gramatyczni_Wojownicy.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Gramatyczni_Wojownicy"
+        mc:Ignorable="d"
+        Title="HelpWindow" Height="410" Width="640" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="Resources/rogier-arents-new-window-132-1-1200.png"/>
+    </Window.Background>
+    <Grid>
+        <Image HorizontalAlignment="Left" VerticalAlignment="Top" Width="612" Source="Resources/instrukcja.png" Height="349" Margin="10,10,0,0"/>
+        <Label x:Name="closePlotButton" Content="Zamknij" HorizontalAlignment="Center" Margin="521,357,10,10" VerticalAlignment="Center" RenderTransformOrigin="0.342,-0.526" Foreground="White" FontFamily="{DynamicResource PressStart2P}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" MouseDown="CloseHelpButton_MouseDown" Width="101" Height="35"/>
+
+    </Grid>
+</Window>
